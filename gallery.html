@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Name: Mia Ehrlich
+Coding 05
+Purpose: This is the gallery page for a mobile first responsive site using bootstrap and jquery
+-->
+<html>
+<head>
+    <title>Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark mx-0 px-0 my-0 py-0 fixed-top">
+            <a href="index.html" class="navbar-brand">
+                <img class="header--logo-img w-25" src="images/logo.png" alt="logo">
+            </a>
+            <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.austinpetsalive.org/adopt" class="nav-link">Adopt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="article__heading text-uppercase mt-4 mb-4 px-3 py-2">Gallery</h1>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/cat2.jpg" alt="black cat and dog">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/dog3.jpg" alt="puppy with sad eyes">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/cat3.jpg" alt="black cat with full moon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/dog4.jpg" alt="god in bear costume">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/cat4.jpg" alt="cat lying on table with lights">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/dog5.jpg" alt="two dogs cuddling">
+                </div>
+            </div>
+
+            <div class="row pb-4">
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/dog1.jpg" alt="two golden retriever puppies">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/cat1.jpg" alt="kitten stretching">
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <img class="img-thumbnail w-100" src="images/dog2.jpg" alt="hiking dog on leash"
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="fixed-bottom text-center">
+        <span class="d-block">&hearts; Adopt-A-Pet &hearts; Austin,TX &hearts;</span>
+        <span class="d-block">&hearts;<time datetime="2020-02-06">February, 2020</time> &hearts;</span>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

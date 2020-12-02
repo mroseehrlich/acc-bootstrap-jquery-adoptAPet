@@ -1,0 +1,17 @@
+#ignore everything
+*
+
+#unignore files
+!.gitignore
+!*images/
+!*js/
+!*css/
+
+!*.html
+!*.css
+!*.js
+!*.ico
+!*.png
+!*.jpg
+!*.php
+
